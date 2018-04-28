@@ -29,7 +29,7 @@ namespace IShadowx.Console
 
             File.WriteAllText(configFile, JsonConvert.SerializeObject(guiConfig));
 
-            System.Console.WriteLine("Update Successful");
+            System.Console.WriteLine("Update Successful Ok");
         }
     }
 }
